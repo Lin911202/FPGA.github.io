@@ -29,4 +29,5 @@ COMM, LED_seg → 七段顯示器顯示倒數計時
 7.遊戲邏輯
 紀錄 磚塊狀態 (state) 與 耐久度 (durability)。控制 球的座標 (ball_x, ball_y) 和 方向 (direction)。速度控制：球的移動速度會隨時間逐漸加快。
 磚塊碰撞檢測：當球打到磚塊，會改變狀態並影響球的方向。倒數計時：若時間耗盡 (time_up=1)，遊戲結束。
+
 <img width="271" alt="level1" src="https://github.com/user-attachments/assets/c496b986-c063-4452-9ff9-eb931dde6d82" />
